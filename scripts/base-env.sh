@@ -29,4 +29,6 @@ sudo apt install -y \
   python3-venv \
   python2 \
   g++-10-aarch64-linux-gnu \
-  gcc-10-aarch64-linux-gnu
+  gcc-10-aarch64-linux-gnu \
+  sudo \
+  qemu-user-static
