@@ -19,7 +19,7 @@ sudo apt-get install -y \
 git clone https://github.com/neovim/neovim.git --depth 1 -b v0.7.2 && \
 cd neovim && \
 make CMAKE_BUILD_TYPE=RelWithDebInfo -j && \
-make install 
+sudo make install 
 
 pip3 install neovim
 
