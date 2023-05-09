@@ -16,7 +16,7 @@ sudo apt-get install -y \
   xsel \
   ripgrep
 
-git clone https://github.com/neovim/neovim.git --depth 1 -b v0.8.0 && \
+git clone https://github.com/neovim/neovim.git --depth 1 -b v0.9.0 && \
 cd neovim && \
 make CMAKE_BUILD_TYPE=RelWithDebInfo -j && \
 sudo make install 
